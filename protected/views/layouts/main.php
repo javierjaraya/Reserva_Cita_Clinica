@@ -42,6 +42,7 @@
                                 ),),
                                 array('label'=>'Gráficos','items'=> array( 
                                     array('label'=>'Gráfico 1','url'=>array('/Cita/viewGrafico'),'visible'=>Yii::app()->user->name=='Dentista'||Yii::app()->user->name=='Asistente'),
+                                    array('label'=>'Gráfico 2','url'=>array('/Cita/formGraficoCPacientes'),'visible'=>Yii::app()->user->name=='Dentista'||Yii::app()->user->name=='Asistente'),
                                 ),),
                                 array('label'=>'Tratamientos', 'url'=>array('/Tratamiento/index'),'visible'=>Yii::app()->user->name=='Dentista'||Yii::app()->user->name=='Asistente'),
                                 array('label'=>'Agenda','items'=> array( 

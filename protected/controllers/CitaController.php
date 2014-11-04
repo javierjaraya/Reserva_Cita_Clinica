@@ -34,7 +34,7 @@ class CitaController extends Controller {
                 'users' => array('@'),
             ),
             array('allow', // allow admin user to perform 'admin' and 'delete' actions
-                'actions' => array('admin', 'delete', 'viewReporte', 'viewGrafico'),
+                'actions' => array('admin', 'delete', 'viewReporte', 'viewGrafico', 'formGraficoCPacientes'),
                 'users' => array('Dentista', 'Asistente'),
             ),
             array('deny', // deny all users
@@ -174,9 +174,9 @@ class CitaController extends Controller {
             $rows = $dataReader->readAll();
             $arregloGT = array();
             $total_pacientes = 0;
-            /*foreach ($rows as $row) {
-                $total_pacientes += (integer) $row['numero_pacientes'];
-            }*/
+            /* foreach ($rows as $row) {
+              $total_pacientes += (integer) $row['numero_pacientes'];
+              } */
             foreach ($rows as $row) {
                 $arregloGT[] = array(
                     "name" => $row['nombre'],
@@ -187,11 +187,46 @@ class CitaController extends Controller {
 
             $this->render('graficoTratamientos', array(
                 "ppc" => $arregloGT,
-                'model'=>$model,
+                'model' => $model,
             ));
-        }else{
+        } else {
             $this->render('fechasTratamiento', array('model' => $model));
         }
+    }
+
+    public function actionFormGraficoCPacientes() {
+        $model = new GraficoCPacientes();
+        if (isset($_POST['GraficoCPacientes'])) {
+            $model->attributes = $_POST['GraficoCPacientes'];
+            
+            $connection = Yii::app()->db;
+            
+            $sql =  "SELECT cita.rut_paciente, paciente.nombre_paciente, SUM(tratamiento.valor) as total FROM paciente JOIN (cita JOIN tratamiento ON cita.id_tratamiento = tratamiento.id_tratamiento) ON paciente.rut_paciente = cita.rut_paciente
+                    WHERE cita.fecha BETWEEN '".$model->inicio."' AND '".$model->fin."'
+                    GROUP BY cita.rut_paciente";   
+            
+            $command = $connection->createCommand($sql);
+            $dataReader = $command->query();
+            $rows = $dataReader->readAll();
+            
+            $datos = array();
+            
+            foreach ($rows as $row){
+                $datos [] = array(
+                    "rut_paciente" => $row['rut_paciente'],
+                    //"nombre_paciente" => $row['nombre_paciente'],
+                    "total" => ((integer) $row['total'] ),
+                );
+            }
+            
+            $this->render('viewGraficoCPacientes', array(
+                "datos" => $datos,
+                'model' => $model,
+            ));
+        }else{
+            $this->render('formGraficoCPacientes', array('model' => $model));
+        }
+        
     }
 
     /**

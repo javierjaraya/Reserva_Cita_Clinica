@@ -21254,3 +21254,282 @@ Stack trace:
 REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=site/login
 HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php?r=site/login
 ---
+2014/11/04 14:56:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "graficoTratamientos" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('graficoTratamie...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('graficoTratamie...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/graficoTra...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/graficoTratamientos
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 14:56:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "graficoTratamientos.php" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('graficoTratamie...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('graficoTratamie...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/graficoTra...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/graficoTratamientos.php
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 14:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "javier" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('javier')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('javier')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/javier')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=site/javier
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 15:00:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "javier" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('javier')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('javier')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/javier')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/javier
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 15:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "viewJavier" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('viewJavier')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('viewJavier')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/viewJavier')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/viewJavier
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 15:06:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ViewJavier')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/ViewJavier')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/ViewJavier
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 15:10:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ViewJavier')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/ViewJavier')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/ViewJavier
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 15:13:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ViewJavier')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/ViewJavier')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/ViewJavier
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 15:14:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ViewJavier')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/ViewJavier')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/ViewJavier
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 15:15:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ViewJavier')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/ViewJavier')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/ViewJavier
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 15:21:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ViewJavier')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/ViewJavier')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/ViewJavier
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 15:22:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ViewJavier" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ViewJavier')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ViewJavier')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/ViewJavier')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/ViewJavier
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 20:00:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "formGraficoCPacientes" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('formGraficoCPac...')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('formGraficoCPac...')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/formGrafic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/formGraficoCPacientes
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 20:00:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('formGraficoCPac...')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/formGrafic...')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/formGraficoCPacientes
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php
+---
+2014/11/04 20:24:15 [error] [exception.CException] exception 'CException' with message 'El alias "ext.highcharts.HighchartsWidget" es inválido. Asegúrese de que apunta a un archivo PHP existente y que el archivo tiene permisos de lectura.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.highcharts....', true)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(CitaController), 'ext.highcharts....', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('ext.highcharts....', Array)
+#3 C:\xampp\htdocs\Reserva_Cita_Clinica\protected\views\cita\viewGraficoCPacientes.php(16): CBaseController->widget('ext.highcharts....', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('viewGraficoCPac...', Array, true)
+#8 C:\xampp\htdocs\Reserva_Cita_Clinica\protected\controllers\CitaController.php(223): CController->render('viewGraficoCPac...', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CitaController->actionFormGraficoCPacientes()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('formGraficoCPac...')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/formGrafic...')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/formGraficoCPacientes
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php?r=Cita/formGraficoCPacientes
+---
+2014/11/04 20:24:46 [error] [exception.CException] exception 'CException' with message 'El alias "ext.highcharts.HighchartsWidget" es inválido. Asegúrese de que apunta a un archivo PHP existente y que el archivo tiene permisos de lectura.' in C:\xampp\htdocs\yii\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.highcharts....', true)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(CitaController), 'ext.highcharts....', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('ext.highcharts....', Array)
+#3 C:\xampp\htdocs\Reserva_Cita_Clinica\protected\views\cita\viewGraficoCPacientes.php(16): CBaseController->widget('ext.highcharts....', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('viewGraficoCPac...', Array, true)
+#8 C:\xampp\htdocs\Reserva_Cita_Clinica\protected\controllers\CitaController.php(223): CController->render('viewGraficoCPac...', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CitaController->actionFormGraficoCPacientes()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('formGraficoCPac...')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Cita/formGrafic...')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=Cita/formGraficoCPacientes
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php?r=Cita/formGraficoCPacientes
+---
+2014/11/04 21:23:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Host desconocido. ' in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1517): CActiveRecord->getTableAlias(true)
+#7 C:\xampp\htdocs\Reserva_Cita_Clinica\protected\components\UserIdentity.php(19): CActiveRecord->findByAttributes(Array)
+#8 C:\xampp\htdocs\Reserva_Cita_Clinica\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#9 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#10 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#11 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#12 C:\xampp\htdocs\Reserva_Cita_Clinica\protected\controllers\SiteController.php(94): CModel->validate()
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\Reserva_Cita_Clinica\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/Reserva_Cita_Clinica/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reserva_Cita_Clinica/index.php?r=site/login
+---
